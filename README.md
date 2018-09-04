@@ -1,5 +1,5 @@
 ### Solution for Black Swan Technical Test
-Implements 
+Solution implements 
 
 * Rest endpoint for create/update/list/listall users
 
@@ -25,12 +25,15 @@ Run the below command to bring up Spring boot app.
  ``` 
 
 ### Embedded H2 database
-The solution uses H2 in memory database for persistence.you can query the database in your browser and using url jdbc:h2:mem:testdb
+The solution uses H2 in memory database for persistence.you can query the database in your browser using url jdbc:h2:mem:testdb
 user name and password is sa
 
 ```
 http://localhost:8080/h2
 ```
+
+### Flyway for schema migration
+Solution use flay to migrate db schema. 
 
 ### Scheduler job configuration
 
@@ -54,7 +57,7 @@ http://localhost:8080/metrics
 
 ### Improvements
 
-* Solution has zero test coverage. Should write unit and components.
+* Because of time constraint couldnt write tests for the solution.Should write unit and component tests.
 
 * Add more logs for debugging purpose. there is limited logs at the moment.
 
