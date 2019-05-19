@@ -1,7 +1,6 @@
 plugins {
     id 'pl.allegro.tech.build.axion-release' version '1.10.1'
 }
-//adding axiom 
 project.version = scmVersion.version
 
 
