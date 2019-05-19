@@ -1,3 +1,9 @@
+plugins {
+    id 'pl.allegro.tech.build.axion-release' version '1.10.1'
+}
+project.version = scmVersion.version
+
+
 allprojects {
     apply plugin: 'java'
     apply plugin: 'maven'
